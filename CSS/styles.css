@@ -9,14 +9,15 @@ h1{
     margin-top: 0;
     font-family: sacramento;
     font-size: 5.625em;
+    color: #66BFBF;
 }
 h2,h3{
-    color: white;
+    color: #66BFBF;
 }
 hr{
-    width: 70%;
-    border-width: 1em;/*1em=100% 16px=100%*/
-    color: white;
+    width: 15%;
+    border-width: 0.5em;/*1em=100% 16px=100%*/
+    color: #423F3E;
     border-style: dotted none none;   
 }
 .heading-p{
@@ -25,6 +26,7 @@ hr{
     margin: 0;
     /*padding-top: 2rem;*/
     padding-bottom: 2rem;
+    color: #66BFBF;
 }
 .bottom-p{
     margin-bottom: 0;
@@ -40,11 +42,13 @@ hr{
     margin: 0;
 }
 .middle-container{
-    background-color: #30E3CA;
-    
+    background-color: #F6F6F6;
+    margin: 0;
 }
 .bottom-container{
-    background-color: #11999E;
+    padding-top: 2rem;
+    background-color: #30E3CA;
+    margin: 0;
 }
 .top-cloud{
     position: relative;
@@ -54,3 +58,67 @@ hr{
 .bottom-cloud{
     position: absolute;
 }
+.skill-row{
+    width: 50%;
+    margin: 6.25rem auto;
+    text-align: left;
+    line-height: 2;
+}
+.computer-img{
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+}
+.chillie-img{
+    width: 25%;
+    float: right;
+    margin-left: 2rem;
+}
+.bitch{
+    color: white;
+    padding: 2rem 0 3rem;
+    margin-bottom: 0;
+}
+.footer-link{
+    font-family: 'Merriweather', serif;
+    margin: 2rem 1rem;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: white;
+}
+.btn{
+    padding: 2rem 0 3rem;
+    margin-bottom: 0;
+}
+.BUTTON_MHW {
+    background: #125881;
+    background-image: -webkit-linear-gradient(top, #125881, #F63DE2);
+    background-image: -moz-linear-gradient(top, #125881, #F63DE2);
+    background-image: -ms-linear-gradient(top, #125881, #F63DE2);
+    background-image: -o-linear-gradient(top, #125881, #F63DE2);
+    background-image: -webkit-gradient(to bottom, #125881, #F63DE2);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: Georgia;
+    width: 213px;
+    font-size: 30px;
+    font-weight: 50;
+    padding: 40px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+/*.footer-link{
+    color: #11999E;
+}*/
